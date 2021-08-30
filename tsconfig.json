@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "outDir": "./build",
+    "resolveJsonModule":true,
+    "strict": true,
+    "strictNullChecks": true,
+    "target": "es6"
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.js"
+  ],
+  "exclude": ["**/*.test.ts", "**/*.test.js", "node_modules"]
+}
+
+//   "compilerOptions": {
+//      "lib": [
+//        "es5",
+//        "es6",
+//        "dom"
+//      ],
+//      "target": "es5",
+//      "module": "commonjs",
+//      "moduleResolution": "node",
+//      "outDir": "./build",
+//      "emitDecoratorMetadata": true,
+//      "experimentalDecorators": true,
+//      "sourceMap": true,
+//     "allowSyntheticDefaultImports": true
+//   }
+//}
